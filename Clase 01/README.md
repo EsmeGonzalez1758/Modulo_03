@@ -27,3 +27,9 @@
 
 [![Ejercicio-clase1-parte1.jpg](https://i.postimg.cc/VLXz7N1y/Ejercicio-clase1-parte1.jpg)](https://postimg.cc/0b2gjPbZ)
 
+### en donde podemos apreciar que en las primera imagen es sobre los datos primitivos y despues en la imagen siguiente tendremos una variab variable que funciona como objeto y se guarda los datos:
+
+[![Ejercicio-clase1-parte1.jpg](https://i.postimg.cc/VLXz7N1y/Ejercicio-clase1-parte1.jpg)](https://postimg.cc/0b2gjPbZ)
+
+y para terminar tenemos el resultado final del codigo:
+[![Ejercicio-clase1-resultado.jpg](https://i.postimg.cc/rwJMkYKQ/Ejercicio-clase1-resultado.jpg)](https://postimg.cc/PCPBbybw)
