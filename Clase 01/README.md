@@ -46,4 +46,6 @@
 
 [![proyecto-tipodato-parte3.jpg](https://i.postimg.cc/mDmHQp5D/proyecto-tipodato-parte3.jpg)](https://postimg.cc/WFJzV8jL)
 
-#en esta seccion declara un array con numeros decimales y con console.log se imprimira el array completa y su solo queremos que imprima 1 lo ponemos entre corchetes la posicion que quiere que imprima, tenemos una funcion de resta para sacar el resultado de una operación y se imprime la fecha y aqui se finaliza el proyecto 
+#en esta seccion declara un array con numeros decimales y con console.log se imprimira el array completa y su solo queremos que imprima 1 lo ponemos entre corchetes la posicion que quiere que imprima, tenemos una funcion de resta para sacar el resultado de una operación y se imprime la fecha y aqui se finaliza el proyecto compilandolo para salir el resultado:
+
+[![resultado-proyecto.jpg](https://i.postimg.cc/KzYns3wJ/resultado-proyecto.jpg)](https://postimg.cc/CZWBR5Fq)

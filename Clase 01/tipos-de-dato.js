@@ -44,7 +44,7 @@ console.log(direccion.colonia);
 
 // Mostrar la dirección completa en una cadena formateada
 console.log(`Dirección: Calle ${direccion.calle}, Manzana ${direccion.Manzana}, 
-Lote ${direccion.Lote}, Colonia ${direccion.colonia}.`);
+    Lote ${direccion.Lote}, Colonia ${direccion.colonia}.`);
 
 // Declaración de un array con números decimales
 let numerosdecimales = [2.5, 4.6, 6.8, 8.1, 10.6];
