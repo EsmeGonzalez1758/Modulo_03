@@ -25,3 +25,5 @@
 
 ## Por lo que de acuerdo a los temas visto se realizo el siguiente ejercicio en clase: 
 
+[![Ejercicio-clase1-parte1.jpg](https://i.postimg.cc/VLXz7N1y/Ejercicio-clase1-parte1.jpg)](https://postimg.cc/0b2gjPbZ)
+
