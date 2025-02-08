@@ -53,7 +53,7 @@
 
  [![impar-codigo.jpg](https://i.postimg.cc/Gt1BW1w2/impar-codigo.jpg)](https://postimg.cc/vg3HnkmF)
 
- Y ahora se vizaulizara el codigo:
+ #### Y ahora se vizualizara el codigo:
  [![impar-codigo-resultado.jpg](https://i.postimg.cc/x8SRt76G/impar-codigo-resultado.jpg)](https://postimg.cc/FdD3KP51)
 
 
