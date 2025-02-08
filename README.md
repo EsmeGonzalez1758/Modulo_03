@@ -72,7 +72,19 @@
 ## A continuacion se vera los resultados que se obtuvieron 
 [![ejercicio2-resultado.jpg](https://i.postimg.cc/vmvgJZLN/ejercicio2-resultado.jpg)](https://postimg.cc/rdKwWcH1)
 
-##Proyecto Evaluador de Notas con Mensajes Personalizados
+## Proyecto Evaluador de Notas con Mensajes Personalizados
+#### Este código genera una nota aleatoria entre 0 y 100, y luego evalúa el rendimiento del estudiante según el valor de la nota. Utiliza condicionales para categorizar la nota en diferentes niveles, proporcionando un mensaje específico en función de la calificación obtenida.
+#### Evaluación de la nota: Usando una serie de condicionales if-else if-else, el código clasifica la nota en diferentes categorías:
+
+#### -90 o más: "¡Excelente! Muchas Felicidades."
+#### -Entre 75 y 89: "¡Bien! Has aprobado."
+#### -Entre 60 y 74: "Has aprobado. Es suficiente, pero puedes mejorar."
+#### -Menor a 60: "Reprobado. Necesitas esforzarte más."
+
+[![pryecto.jpg](https://i.postimg.cc/KYkbSq23/pryecto.jpg)](https://postimg.cc/cKS2fc6d)
+
+#### A continuacion se observa el codigo ejecutandose
+[![pryecto-resultado-final-ult.jpg](https://i.postimg.cc/J4V5bGnf/pryecto-resultado-final-ult.jpg)](https://postimg.cc/QVm7DNcm)
 
 
 
