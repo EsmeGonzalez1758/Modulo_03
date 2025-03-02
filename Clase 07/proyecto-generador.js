@@ -1,4 +1,4 @@
-document.getElementById("generate").addEventListener("click", generatePassword);
+        document.getElementById("generate").addEventListener("click", generatePassword);
         document.getElementById("copyBtn").addEventListener("click", copyPassword);
         document.getElementById("length").addEventListener("input", updateLength);
 
