@@ -26,6 +26,7 @@
 Al iniciar sesión, los usuarios son redirigidos a la página de comentarios, donde pueden interactuar con la funcionalidad de comentarios. En esta página, los usuarios pueden:
 
 - **Publicar Comentarios**: Escribir un comentario en un campo de texto y publicarlo. El comentario se mostrará junto con la fecha y hora de publicación.
+
 [![image.png](https://i.postimg.cc/fTDcxMJN/image.png)](https://postimg.cc/6Tb4KJrj)
 
 #### En tu código, la funcionalidad para publicar comentarios se encuentra en la función 'postComment()'. Esta función se activa cuando el usuario hace clic en el botón "Publicar".
