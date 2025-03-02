@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://i.postimg.cc/brL0zXJ7/folders-6759004.png" type="image/png">
+    <title>Huella Literaria</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <button class="logout-button" onclick="logout()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff">
+                <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z"/>
+            </svg>
+        </button>
+
+        <h1>Huella Literaria <img src="https://i.postimg.cc/brL0zXJ7/folders-6759004.png" alt="Icono Biblioteca" style="width: 10%; height:10%; vertical-align: middle;"></h1>
+
+        <section class="subtopic-container">
+            <h2>Mi dulce Audrina</h2>
+            <p>Audrina es una niña extraña; no tiene recuerdos ni sentido del tiempo. Ama y odia a Damián, su papá, un hombre maravilloso y terrible, amoroso y cruel, generoso y egoísta, quien la obliga a recordar el pasado, para revivir el talento y los dones de la primera Audrina, la perfecta, la más buena, la más bella, y a quien Audrina ve como una sombra que confunde su vida... nunca podrá ser como ella.</p>
+            <p>Es una conmovedora novela sobre el drama de una mujer obligada a perder su identidad ante la tragedia que la envuelve. Presenta un laberinto de conflictivas relaciones familiares que desencadena en insospechadas tragedias, poniendo a prueba la fortaleza y el honor. La extraordinaria novelista V.C. Andrews, autora de Flores en el Atico, nos presenta un cuadro de pasiones y engaños, egoísmo y maldad, cariño y fidelidad, desesperación y sosiego, que mantiene al lector absorto en las páginas que se deslizan sin sentir esperando el estremecedor e inesperado desenlace.</p>
+            <p>Es un personaje que encarna al amor, la nobleza y la bondad, recibiendo de los demás odio y traición. Audrina tiene que enfrentar el desprecio, la venganza y la muerte para encontrar su propia identidad y descubrir el misterio de su vida. Pero ¿cuál es el misterio que envuelve a Audrina? ¿Por qué sólo tiene vagos recuerdos que se pierden en el tiempo y en su memoria?</p>
+            <img src="https://i.pinimg.com/736x/8f/9a/ac/8f9aacead07e2221578d76dfdd02a029.jpg" alt="Imagen de Audrina" class="book-image">
+        </section>
+
+
+        <section class="comment-container">
+            <h2>Comentarios</h2>
+            <p id="user-info"></p>
+            <textarea placeholder="Publica un comentario" id="comment" style="width: 80%; height: 10vh; border-radius: 10px; padding: 5px;"></textarea>
+            <button onclick="postComment()">Publicar</button>
+            <section id="comment-section"></section>
+        </section>
+    </div>
+    <script src="./home.js"></script>
+</body>
+</html>

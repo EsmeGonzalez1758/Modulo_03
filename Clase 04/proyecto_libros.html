@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca de Libros</title>
+    <link rel="stylesheet" href="./proyecto_libros.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Biblioteca de Libros</h1>
+        <div class="formulario">
+            <h2>Agregar un nuevo libro</h2>
+            <input type="text" id="titulo" placeholder="Título del libro" required>
+            <input type="text" id="autor" placeholder="Autor del libro" required>
+            <input type="number" id="anio" placeholder="Año de publicación" required>
+            <select id="estado">
+                <option value="disponible">Disponible</option>
+                <option value="prestado">Prestado</option>
+            </select>
+            <button id="agregar-libro">Agregar Libro</button>
+        </div>
+        <div id="libro-info"></div>
+        <div class="capitulos">
+            <h2>Capítulos</h2>
+            <input type="text" id="capitulo-input" placeholder="Agregar capítulo">
+            <button id="agregar-capitulo">Agregar Capítulo</button>
+            <ul id="capitulos-list"></ul>
+            <button id="eliminar-capitulo">Eliminar Último Capítulo</button>
+        </div>
+    </div>
+    <script src="./proyecto_libros.js"></script>
+</body>
+</html>

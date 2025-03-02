@@ -1,0 +1,26 @@
+Document Object Model
+
+Interfaz que representa al HTML como un arbol de nodos
+
+Sirve para manipular elementos html mediante javascript utilizando metodos, podemos cambiar atributos, estilos, etc.
+
+Nodo Raiz -> representa todo el documento Doctype
+Nodo html -> Es el nodo principal
+Nodo head y body -> Hijos del principal
+Nodos elemento -> Elementos h1 title meta p 
+Nodos texto -> Contenido
+Nodos atributos -> Atributos como id class src 
+Nodos de comentarios
+
+
+
+
+Caja de comentarios
+
+
+Input -> Para que el usuario agregue un texto
+Button -> Para agarrar ese texto y colocarlo abajo
+
+sectionPadre -> Esa seccion se muestre los comentarios
+sectionHija -> Comentario pero puedas añadir un boton o un icono de borrar comentario
+innerText -> mande un date

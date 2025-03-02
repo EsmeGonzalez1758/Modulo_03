@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            height: 100vh;
+            margin: 0;
+            font-family: "Montserrat", serif;
+            background: url('https://images.pexels.com/photos/207662/pexels-photo-207662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            width: 90%; /* Aumentar el ancho del contenedor */
+            max-width: 1000px; /* Aumentar el max-width del contenedor */
+            max-height: 90vh; /* Aumentar el max-height del contenedor */
+            overflow-y: auto; /* Permitir desplazamiento vertical */
+        }
+
+        button {
+            width: 60%; /* Aumentar el ancho del botón */
+            height: 6vh; /* Aumentar la altura del botón */
+            margin-top: 10px;
+            cursor: pointer;
+            border: none;
+            background-color: #4a4e69;
+            color: white;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            font-size: 16px; /* Aumentar el tamaño de la fuente */
+        }
+
+        .book-image {
+            width: 30%; /* Ajustar el tamaño de la imagen del libro */
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .comentario {
+            background-color: white;
+            padding: 15px; /* Aumentar el padding para más espacio */
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            text-align: left;
+            color: black;
+            font-size: 14px;
+            width: 80%;
+            max-width: 600px; /* Ajustar el ancho máximo */
+            margin-left: auto; /* Centrar horizontalmente */
+            margin-right: auto; /* Centrar horizontalmente */
+            position: relative; /* Para posicionar el botón de eliminar */
+        }
+
+        .delete-button {
+            background-color: transparent; /* Fondo transparente */
+            border: 1px solid #ccc; /* Borde del botón */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambiar cursor */
+            position: absolute; /* Posicionar el botón */
+            bottom: 10px; /* Ajustar la posición desde la parte inferior */
+            right: 10px; /* Ajustar la posición desde la derecha */
+            width: 30px; /* Ancho fijo del botón */
+            height: 30px; /* Alto fijo del botón */
+            display: flex; /* Usar flexbox para centrar el icono */
+            justify-content: center; /* Centrar horizontalmente */
+            align-items: center; /* Centrar verticalmente */
+            transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+        }
+        
+        .delete-button img {
+            width: 15px; /* Tamaño del icono de basura */
+            height: 15px; /* Tamaño del icono de basura */
+        }
+        
+        /* Efecto hover */
+        .delete-button:hover {
+            background-color: rgba(255, 0, 0, 0.1); /* Color de fondo al pasar el ratón */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+        }
+        
+        img {
+        width: 60vw;
+        height: 50vh;
+        border-radius: 10px;
+        }
+
+        .comment-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        textarea {
+            width: 80%;
+            margin-top: 10px;
+            font-size: 14px;
+            height: 10vh;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        button:hover {
+            background-color: #14151d;
+            transform: scale(1.05);
+        }
+
+        .comentario p {
+            font-size: 12px;
+            color: #4a4e69;
+            margin-bottom: 5px;
+        }
+
+        .user-image {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .logout-button {
+            background-color: #8B4513;
+            border: none;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-radius: 5px;
+        }
+
+        .logout-button:hover {
+            background-color: #5A2D0C;
+        }
+
+        .logout-button svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }

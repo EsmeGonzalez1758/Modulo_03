@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./proyecto-generador.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay loop muted class="background-video">
+        <source src="https://v1.pinimg.com/videos/mc/720p/17/19/31/171931bbc5849ea7ec664708c433a524.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="password-box">
+            <input type="text" id="password" readonly>
+            <button id="copyBtn">📋</button>
+        </div>
+        <label>Character Length: <span id="lengthValue">10</span></label>
+        <input type="range" id="length" min="6" max="20" value="10">
+        <div class="options">
+            <label><input type="checkbox" id="uppercase" checked> Include Uppercase Letters</label>
+            <label><input type="checkbox" id="lowercase" checked> Include Lowercase Letters</label>
+            <label><input type="checkbox" id="numbers" checked> Include Numbers</label>
+            <label><input type="checkbox" id="symbols"> Include Symbols</label>
+        </div>
+        <div class="strength-box" id="strength-box">
+            Strength: <span id="strength">MEDIUM</span>
+        </div>
+        <button id="generate">Generate →</button>
+    </div>
+    <script src="./proyecto-generador.js"></script>
+</body>
+</html>

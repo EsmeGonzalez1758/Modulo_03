@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luz de Sabiduría</title>
+    <link rel="stylesheet" href="./proyecto_libreria.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Luz de Sabiduría</h1>
+        <form id="formLibro">
+            <input type="text" id="titulo" placeholder="Título" required>
+            <input type="text" id="autor" placeholder="Autor" required>
+            <input type="number" id="anio" placeholder="Año" required>
+            <select id="estado">
+                <option value="disponible">Disponible</option>
+                <option value="prestado">Prestado</option>
+            </select>
+            <button type="submit">Agregar Libro</button>
+        </form>
+        <button class="btn-mostrar" onclick="mostrarTabla()">Mostrar en Tabla</button>
+        <div id="libros"></div>
+        <table id="tablaLibros" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Autor</th>
+                    <th>Año</th>
+                    <th>Estado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    
+    <script src="./proyecto_libreria.js"></script>
+</body>
+</html>

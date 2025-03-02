@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/05/86/70/058670f8d44db761d82cd4e71893ace2.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex; /* Usar flexbox para centrar */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto; /* Centrar el contenedor */
+    background-color: rgba(255, 105, 180, 0.7); /* Color rosa con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: white; /* Color del texto del encabezado */
+    text-align: center; /* Centrar el texto */
+}
+
+textarea {
+    width: 100%; /* Hacer que el textarea ocupe todo el ancho del contenedor */
+    height: 100px; /* Altura del textarea */
+    margin: 10px 0; /* Margen superior e inferior */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde del textarea */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluir padding y border en el ancho total */
+}
+
+.comment {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente para los comentarios */
+    color: black; /* Color del texto */
+    display: flex; /* Usar flexbox para alinear elementos */
+    align-items: flex-start; /* Alinear elementos al inicio */
+}
+
+.comment-content p {
+    font-size: 18px; /* Aumentar el tamaño de la fuente */
+    color: #333; /* Cambiar el color del texto */
+    font-weight: bold; /* Hacer el texto en negritas */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Agregar sombra al texto */
+    margin: 0; /* Eliminar margen */
+}
+
+.profile-pic {
+    width: 40px; /* Tamaño de la imagen de perfil */
+    height: 40px; /* Mantiene la proporción */
+    border-radius: 50%; /* Hace que la imagen sea ovalada */
+    margin-right: 10px; /* Espacio entre la imagen y el comentario */
+}
+
+.comment-content {
+    flex: 1; /* Permite que el contenido del comentario ocupe el espacio disponible */
+}
+
+.comment-footer {
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre la fecha y el botón */
+    margin-top: 5px; /* Espacio entre el comentario y el pie */
+}
+button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c0a9a;
+}
+
+.comment {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.comment button {
+    background-color: #6CA6D3 ;
+    margin-top: 5px;
+}
+
+.comment button:hover {
+    background-color: #4682B4;
+}
