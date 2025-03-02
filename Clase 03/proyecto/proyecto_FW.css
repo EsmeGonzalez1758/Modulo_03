@@ -1,0 +1,102 @@
+/* Fondo de la página con la imagen fija para toda la pantalla */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/29/f7/84/29f7848741ea703a2ac94520bdd80d80.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: white;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    height: 500px;
+    overflow-y: auto;
+    margin-top: 50px;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #f2f2f2;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Colores para los subtemas */
+#acidas-title {
+    color: yellow;
+}
+
+#semiacidas-title {
+    color: orange;
+}
+
+#neutras-title {
+    color: lightblue;
+}
+
+#dulces-title {
+    color: pink;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px; /* Agregar margen izquierdo */
+    margin-left: 0;
+}
+
+/* Estilo de las viñetas utilizando ::before */
+ul li {
+    position: relative;
+    list-style-type: none; /* Elimina el estilo por defecto de las viñetas */
+    padding-left: 30px; /* Deja espacio para las viñetas personalizadas */
+    margin: 5px 0;
+}
+
+ul li::before {
+    content: '\2022'; /* El código Unicode para el punto */
+    color: white; /* Cambia el color de las viñetas a blanco */
+    font-size: 24px; /* Ajusta el tamaño de las viñetas */
+    position: absolute;
+    left: 0; /* Alinea las viñetas a la izquierda */
+    top: 50%; /* Centra las viñetas verticalmente */
+    transform: translateY(-50%);
+}
+
+/* Elementos de lista */
+li {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    display: block;
+}
+
+/* Cambiar el color de cada grupo de frutas */
+#acidas-list li {
+    color: yellow;
+}
+
+#semiacidas-list li {
+    color: orange;
+}
+
+#neutras-list li {
+    color: lightblue;
+}
+
+#dulces-list li {
+    color: pink;
+}

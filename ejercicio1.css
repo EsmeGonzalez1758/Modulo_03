@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/27/d6/24/27d624530047b4f4fadcf19cfea1c2e9.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centrar el título */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo de cada item de la lista */
+li {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Estilo del botón */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

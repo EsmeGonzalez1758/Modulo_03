@@ -1,0 +1,65 @@
+/* Estilos básicos para centrar el contenido y darle un diseño sencillo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/736x/9b/f2/b6/9bf2b6ee1b7f1b539186bbdc15466673.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    flex-direction: column; /* Centra los elementos en columna */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con opacidad del 80% */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%; /* Hacer que el botón también ocupe el ancho completo */
+}
+
+button:hover {
+    background-color: #45a049;
+}

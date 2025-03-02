@@ -1,47 +1,38 @@
-let nota = 5;
-const notaAprobatoria = 6;
+//String 
+let mensaje = "Hola Mundo";
+console.log(mensaje.toUpperCase());
 
-if(nota >= notaAprobatoria){
-    console.log("Estas aprobado");
-} else{
-    console.log("Estas reprobado");
-}
+let nombre = "Joel";
+console.log(`Hola ${nombre}`)
+console.log('Hola ' + nombre + ' Como estas?');
+console.log('Hola', nombre, 'Como esta?');
 
-let temp = 10;
+//Boolean
+let esMayor = false;
+console.log(esMayor && false);
 
-if(temp >= 30) {
-    console.log("Te estas derritiendo de calor");
-} else if(temp >= 21 && temp <= 29) {
-    console.log("Esta haciendo un clima agradable");
-} else {
-    console.log("Te estas congelando");
-    
-}
+//Arrays
+let alumnos = ["Adelina", "Randy", "Saul", "Maria"];
+console.log(alumnos[3]);
 
-// OPERADOR TERNARIO: Hacer lo mismo pero en una sola linea
-let edad = 25;
-let resultado = (edad >= 18) ? "Es mayor de edad" : "Es menor de edad";
-console.log(resultado);
+//Modificar con asignacion
+alumnos[2] = "Ian";
+console.log(alumnos);
 
-let resultado2 = (nota >= notaAprobatoria) ? "Estas aprobado" : "Estas reprobado"
-console.log(resultado2);
+//Añadir
+alumnos.push("Natalia")
+console.log(alumnos);
 
-let dia = 'lunes';
-switch(dia){
-    case 'lunes':
-        console.log('Inicio semana');
-        
-    case 'jueves':
-        console.log('Jueves chido');
-        break;
-    default:
-        console.log('No se que dia es hoy');
-}
+alumnos.unshift("Scarlett")
+console.log(alumnos);
 
+console.log(alumnos.length);
 
-// CREAR VALORES ALEATORIOS:
-let valorRandom = Math.floor(Math.random() * 101); /**
-                                                    * floor redondea valores
-                                                    * * 101 dara valores entre 0 y 100
-                                                   */
-console.log(valorRandom);
+//Numeros
+let x = 2;
+x += 5;
+
+console.log(x);
+
+let division = 0;
+console.log(division / 0);
