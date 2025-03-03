@@ -3,32 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biblioteca de Libros</title>
-    <link rel="stylesheet" href="./proyecto_libros.css">
+    <title>Seguimiento de Libros</title>
+    <link rel="stylesheet" href="./proyecto_libros.css"
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Georgia&display=swap" rel="stylesheet">>
 </head>
 <body>
-    <div class="container">
-        <h1>Biblioteca de Libros</h1>
-        <div class="formulario">
-            <h2>Agregar un nuevo libro</h2>
-            <input type="text" id="titulo" placeholder="Título del libro" required>
-            <input type="text" id="autor" placeholder="Autor del libro" required>
-            <input type="number" id="anio" placeholder="Año de publicación" required>
-            <select id="estado">
-                <option value="disponible">Disponible</option>
-                <option value="prestado">Prestado</option>
-            </select>
-            <button id="agregar-libro">Agregar Libro</button>
+    <div class="contenedor">
+        <h1>Refugio Literario</h1>
+        <h2>Mis Libros Leídos</h2>
+        <div class="controles">
+            <input type="text" id="titulo-input" placeholder="Título del libro">
+            <button onclick="agregarLibroDesdeInput()">Agregar Libro</button>
+            <button onclick="mostrarLibrosLeidos()">Mostrar Libros Leídos</button>
         </div>
-        <div id="libro-info"></div>
-        <div class="capitulos">
-            <h2>Capítulos</h2>
-            <input type="text" id="capitulo-input" placeholder="Agregar capítulo">
-            <button id="agregar-capitulo">Agregar Capítulo</button>
-            <ul id="capitulos-list"></ul>
-            <button id="eliminar-capitulo">Eliminar Último Capítulo</button>
-        </div>
+        <ul id="lista-libros"></ul>
     </div>
     <script src="./proyecto_libros.js"></script>
 </body>
 </html>
+
